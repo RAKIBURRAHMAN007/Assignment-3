@@ -4,8 +4,122 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
+    <!-- manrope font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- daisy ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'primary-btn-color': '#ABEF5F',
+                'primary-bg': '#F7F7F7',
+
+              }
+            }
+          }
+        }
+      </script>
 </head>
-<body>
+<body class="font-manrope">
+
+    <header class="lg:container max-auto px-6 lg:px-24 bg-primary-bg  py-8">
+      <!-- navbar -->
+        <nav >
+            <div class="flex justify-between items-center">
+              <div class="flex gap-2">
+                <div class="rounded-full bg-primary-btn-color w-9 ">
+                  <i class="fa-solid fa-arrow-right -rotate-45 mx-3 py-3  "></i>
+
+                </div>
+                <div>
+                  <h3 class="text-3xl font-bold">Rinterio</h3>
+
+                </div>
+              </div>
+              <div class="hidden lg:block">
+                <ul class="flex gap-4 ">
+                  <li><a class="font-bold" href="">Home</a></li>
+                  <li><a class="text-gray-400 font-bold" href="">Services</a></li>
+                  <li><a class="text-gray-400 font-bold" href="">Portfolio</a></li>
+                  <li><a class="text-gray-400 font-bold" href="">Blogs</a></li>
+                  <li><a class="text-gray-400 font-bold" href="">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="hidden lg:block">
+                <div class="flex items-center gap-4">
+                  <div class="rounded-full bg-white p-2 px-3 border">
+                    <i class="fa-solid fa-magnifying-glass opacity-80  "></i>
+  
+                  </div>
+                  <div class="rounded-full bg-white p-2 px-3 border">
+                    <i class="fa-solid fa-cart-shopping opacity-80"></i>
+  
+                  </div>
+                  <div>
+                    <a href=""><button class="btn bg-primary-btn-color font-bold text-xl rounded-3xl">Book Consult 
+                      <div class="rounded-full bg-black px-1.5">
+                        <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                      </div>
+                    </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-full bg-white p-2 px-3 border lg:hidden block">
+                <i class="fa-solid fa-bars opacity-55"></i>
+
+              </div>
+            </div>
+        </nav>
+        <br><br><br>
+      <!--banner section  -->
+        <section class="">
+          <div class="text-center ">
+            <div class="flex items-center justify-center">
+              <img src="assets/banner.png" alt="">
+            </div>
+            <br>
+            <div>
+              <h3 class="text-4xl font-extrabold lg:text-6xl font-bold ">A barn house of this design has a <br> striking appearance</h3>
+              <br>
+              <p class=" font-bold lg:text-base">The barn house draws you in with its blend of rustic charm and contemporary style, showcasing weathered wood,<br> sleek metal  details, and large windows that bathe the interior in natural light.</p>
+            </div>
+            <br>
+            <div>
+              <button class="btn bg-primary-btn-color bg-opacity-60 font-bold text-xl rounded-3xl border border-primary-btn-color">View Details 
+                <div class="rounded-full bg-primary-btn-color px-1.5">
+                  <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+                </div>
+              </button></a>
+              
+            </div>
+          </div>
+        </section>
+
+
+
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
     
 </body>
 </html>
